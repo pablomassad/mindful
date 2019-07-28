@@ -1,0 +1,79 @@
+.backImg {
+   width: 100%;
+   height: 100vh;
+   //background-image: url('../../assets/images/splash.png');
+   //background: radial-gradient(circle, #9feefe 0%, #6db3cc 64%, #059098 100%);
+   background: linear-gradient(#1ba5c5, #61d5ec);
+   background-size: cover;
+   background-position: center;
+   // display: -webkit-box;
+   // display: -webkit-flex;
+   // display: -moz-box;
+   // display: -ms-flexbox;
+}
+
+.loginFrame {
+   max-width: 500px;
+   width: 90%;
+   height: 550px;
+   position: absolute;
+   margin: auto;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+// .loginFrame:before{
+//    filter: blur(10px);
+//  }
+.loginPanel{
+   box-shadow: 0 0 40px #444;
+   border-radius: 10px;
+   background: linear-gradient(#ffffff 50%, #eeeeee);
+   height: 131vw;
+   min-height: 400px;
+   max-height: 500px;
+   width: 100%;
+}
+
+.formLogo{
+   display: grid;
+   justify-items: center;
+}
+.formTitle {
+   color: #ddd;
+   font-family: sans-serif;
+   font-size: 13vw;
+   font-weight: bold;
+   text-shadow: 1px 1px 3px black;
+}
+.logo{
+   width: 41vw;
+   max-width: 200px;
+}
+
+.formlogin{
+   position: absolute;
+   padding:20px;
+}
+
+.btnLogin{
+   width: 100%;
+   margin-top: 30px;
+}
+.btnRegister{
+   margin-top: 30px;
+   background: green !important;
+   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 -1px 0 rgba(255, 255, 255, 0.1) inset, 0 4px 0 #0f6331, 0 10px 10px rgba(0, 0, 0, 0.3) !important;
+}
+.go-to-register
+{
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 400px) {
+   .formTitle {
+      font-size: 50px;
+   }
+}
