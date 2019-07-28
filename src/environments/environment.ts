@@ -9,7 +9,7 @@ export const environment = {
       authDomain: "pp-feellife.firebaseapp.com",
       databaseURL: "https://pp-feellife.firebaseio.com",
       projectId: "pp-feellife",
-      storageBucket: "",
+      storageBucket: "pp-feellife.appspot.com",
       messagingSenderId: "127935454909"
    }
 };

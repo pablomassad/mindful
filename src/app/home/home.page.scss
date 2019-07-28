@@ -1,1 +1,17 @@
 
+.counterPanel{
+   width: 45vw;
+   height: 45vw;
+   border-radius: 50%;
+   box-shadow: 0 0 35px black;
+   background: red;
+   margin: auto;
+   margin-top: 50vw;
+}
+.counterText{
+   color: white;
+   text-shadow: 1px 1px 3px;
+   text-align: center;
+   font-size: 22vw;
+   padding-top: 5vw;
+}
